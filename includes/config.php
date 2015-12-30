@@ -6,6 +6,8 @@ session_start();
 //date_default_timezone_set('Europe/London');
 
 //database credentials
+//alexanderhardy.co.uk
+/*
 define('DBHOST', "alexanderhardy.co.uk.mysql");
 define('DBUSER', "alexanderhardy_");
 define('DBPASS', "nnrs6214");
@@ -13,7 +15,15 @@ define('DBNAME',"alexanderhardy_");
 $dsn = 'mysql:dbname=alexanderhardy_;host=alexanderhardy.co.uk.mysql';
 $user = 'alexanderhardy_';
 $password = 'nnrs6214';
-
+*/
+//Local
+define('DBHOST', "127.0.0.1");
+define('DBUSER', "root");
+define('DBPASS', "");
+define('DBNAME',"FCC");
+$dsn = 'mysql:dbname=FCC;host=127.0.0.1';
+$user = 'root';
+$password = '';
 
 //application address
 define('DIR','http://alexanderhardy.co.uk/test/');
